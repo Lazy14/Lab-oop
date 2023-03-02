@@ -13,18 +13,27 @@ private:
 
 
 public:
+    Animals()
+	{
+		name = "0";
+		kind = "0";
+		average_weight = 0;
+		cout << "Визвався конструктор ,без параметрiв | "<< endl;
 
+	}
 	Animals(string N, string k, int av)
 	{
 		name = N;
 		kind = k;
 		average_weight = av;
-		
+		cout << "Визвався конструктор | ";
 
 	}
 
-	~Animals() {
+	
 
+	~Animals() {
+		cout << "Визвався денструктор | ";
 	}
 	
 	string GetName() {
@@ -46,6 +55,9 @@ public:
 
 int main() {
 	setlocale(LC_ALL, "ukr");
+
+	Animals a[1];
+
 
 	Animals tiger("Тигр", "Тигр", 70);
 	Animals cheetah("Гепард", "Гепард", 50);
