@@ -1,0 +1,5 @@
+﻿  lab 3 oop.cpp
+C:\Users\Макс\source\repos\lab 3 oop\lab 3 oop\lab 3 oop.cpp(39,8): error C2059: syntax error: ':'
+C:\Users\Макс\source\repos\lab 3 oop\lab 3 oop\lab 3 oop.cpp(39,8): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+C:\Users\Макс\source\repos\lab 3 oop\lab 3 oop\lab 3 oop.cpp(45,5): error C2653: 'Anything': is not a class or namespace name
+C:\Users\Макс\source\repos\lab 3 oop\lab 3 oop\lab 3 oop.cpp(69,1): fatal  error C1004: unexpected end-of-file found
